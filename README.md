@@ -1,1 +1,1 @@
-# Texas2018Analytcs
+# Analytics of the 2018 Texas Elections
