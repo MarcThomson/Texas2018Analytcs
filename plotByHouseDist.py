@@ -26,9 +26,9 @@ df =  pd.read_csv("2018ResultsTXByHouseDistrict.csv",dtype={"State House Disctri
 
 
 df['text']  = "State House District: " + df['State House Disctrict'] + "<br>" +\
-    "Dem State House Margain: " + df['DemLegMargRounded'].astype(str) + "<br>" +\
-    "Dem Sen Margain: " +df['DemSenMargRounded'].astype(str) +"<br>"+\
-     "Dem Gov Margain: " +df['DemGovMargRounded'].astype(str)
+    "Dem State House Margin: " + df['DemLegMargRounded'].astype(str) + "<br>" +\
+    "Dem Sen Margin: " +df['DemSenMargRounded'].astype(str) +"<br>"+\
+     "Dem Gov Marain: " +df['DemGovMargRounded'].astype(str)
 
 
 #open json file
